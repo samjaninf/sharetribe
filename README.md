@@ -29,8 +29,8 @@ To build and launch a marketplace without writing a single line of code, and ext
 
 ## Technology stack
 
-- Ruby 3.2.2
-- Ruby on Rails 7.2.2.1
+- Ruby 3.4.8
+- Ruby on Rails 8.1.2
 - MySQL 8.0
 - React + jQuery
 - Node.js 18.16 (for compiling JavaScript assets)
@@ -54,12 +54,12 @@ To build and launch a marketplace without writing a single line of code, and ext
 ### Requirements
 
 Before you get started, install the following:
-  * **Ruby**. Version 3.2.2 is currently used and we don't guarantee everything works with other versions. If you need multiple versions of Ruby, [RVM](https://rvm.io//) or [rbenv](https://github.com/rbenv/rbenv) is recommended.
+  * **Ruby**. See the version currently used above. We don't guarantee everything works with other versions. If you need multiple versions of Ruby, [RVM](https://rvm.io//) or [rbenv](https://github.com/rbenv/rbenv) is recommended.
   * [**RubyGems**](http://rubygems.org/)
   * **Bundler**: `gem install bundler`
-  * **Node**. Version 18.16 is currently used and we don't guarantee everything works with other versions. If you need multiple versions of Node, consider using [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), or [nenv](https://github.com/ryuone/nenv).
+  * **Node**. See the version currently used above. We don't guarantee everything works with other versions. If you need multiple versions of Node, consider using [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), or [nenv](https://github.com/ryuone/nenv).
   * [**Git**](http://help.github.com/git-installation-redirect)
-  * **A database**. Only MySQL 8.0 has been tested, so we give no guarantees that other databases (e.g. PostgreSQL) work. You can install MySQL Community Server two ways:
+  * **A database**. Only MySQL (see the version currently used above) has been tested, so we give no guarantees that other databases (e.g. PostgreSQL) work. You can install MySQL Community Server two ways:
     1. If you are on a Mac, use homebrew: `brew install mysql` (*highly* recommended). Also consider installing the [MySQL Preference Pane](https://dev.mysql.com/doc/refman/5.1/en/osx-installation-prefpane.html) to control MySQL startup and shutdown. It is packaged with the MySQL downloadable installer, but can be easily installed as a stand-alone.
     2. Download a [MySQL installer from here](http://dev.mysql.com/downloads/mysql/)
   * [**Sphinx**](http://pat.github.com/ts/en/installing_sphinx.html). Version 2.1.4 has been used successfully, but newer versions should work as well. Make sure to enable MySQL support. If you're using OS X and have Homebrew installed, install it with `brew install sphinx --with-mysql`
